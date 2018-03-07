@@ -19,6 +19,11 @@ class MoviesController < ApplicationController
     
     #Default sort by id
     session[:sort] ||= 'id'
+    
+     #set rating and sort values
+    @ratings = session[:ratings]
+    @sort = session[:sort]
+  
 
     #Highlight selected title or ratings header
     case params[:sort] 
@@ -37,20 +42,11 @@ class MoviesController < ApplicationController
     end
 
     #preserve restful status
-    if params[:ratings]
-      session[:ratings] = params[:ratings]
-    else
-      if session[:ratings]
-        redirect_to movies_path(Hash[session[:ratings].map { |k, v| ["ratings[#{k}]", v]}])
-      else
-        session[:ratings] = Hash[Movie.all_ratings.map {|r| [r, 1]}]
-      end
+    if  params[:ratings].nil? || params[:sort].nil?
+      redirect_to movies_path(ratings: Hash[session[:ratings].map {|r| [r,1]}], 
+      sort: session[:sort])
     end
     
-    #set rating and sort values
-    @ratings = session[:ratings]
-    @sort = session[:sort]
-  
     #Set movies to new list depending on rating settings AND sort
     @movies = Movie.where(rating: @ratings).order(session[:sort])
 
