@@ -17,16 +17,6 @@ class MoviesController < ApplicationController
     #Set ratings to all ratings or saved ratings
     @selected_ratings = params[:ratings] || session[:ratings] || {}
     
-    if params[:ratings]
-      session[:ratings] = params[:ratings]
-    else
-      if session[:ratings]
-        redirect_to movies_path(Hash[session[:ratings].map { |k, v| ["ratings[#{k}]", v]}])
-      else
-        session[:ratings] = Hash[@all_ratings.map {|r| [r, 1]}]
-      end
-    end
-    
     #Default sort by id
     session[:sort] ||= 'id'
 
@@ -39,11 +29,18 @@ class MoviesController < ApplicationController
     end
 
     #Save settings for part 3
+    if params[:ratings]
+      session[:ratings] = params[:ratings].keys
+    end
     if params[:sort]
       session[:sort] = params[:sort]
     end
 
     #preserve restful status
+    if  session[:ratings].nil? || session[:sort].nil?
+      redirect_to movies_path(ratings: Hash[session[:ratings].map {|ratings| [ratings,1]}], 
+      sort: session[:sort])
+    end
     
     #set rating and sort values
     @ratings = session[:ratings]
