@@ -16,7 +16,9 @@ class MoviesController < ApplicationController
 
     #Set ratings to all ratings or saved ratings
     @selected_ratings = params[:ratings] || session[:ratings] || {}
-    session[:ratings] ||= 'id'
+    if(params[:ratings])
+      session[:ratings] ||= params[:ratings]
+    end
     
     #Default sort by id
     session[:sort] ||= 'id'
