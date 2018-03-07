@@ -42,7 +42,7 @@ class MoviesController < ApplicationController
       sort: session[:sort])
     end
     
-    #set rating and sort values
+    #set rating and sort values for next
     @ratings = session[:ratings]
     @sort = session[:sort]
   
