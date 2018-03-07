@@ -23,7 +23,7 @@ class MoviesController < ApplicationController
       if session[:ratings]
         redirect_to movies_path(Hash[session[:ratings].map { |k, v| ["ratings[#{k}]", v]}])
       else
-        session[:ratings] = Hash[Movie.all_ratings.map {|r| [r, 1]}]
+        session[:ratings] = Hash[@all_ratings.map {|r| [r, 1]}]
       end
     end
     
