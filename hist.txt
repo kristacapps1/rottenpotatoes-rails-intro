@@ -1,0 +1,820 @@
+    1  git clone https://github.com/kristacapps1/rottenpotatoes-rails-intro.git
+    2  cd rottenpotatoes-rails-intro
+    3  rvm install "ruby-2.3.0"
+    4  ruby --version 
+    5  sudo yum -y install ruby 2.3.0
+    6  sudo yum -y install ruby
+    7  ruby --version 
+    8  cd rottenpotatoes-rails-intro
+    9  pwd
+   10  bundle install --without production
+   11  rvm install "ruby-2.3.0"
+   12  bundle install --without production
+   13  rvm install ruby-2.3
+   14  rvm install ruby-2.3.0
+   15  sudo rvm install ruby-2.3.0
+   16  sudo -su rvm install ruby-2.3.0
+   17  sudo rvm install ruby-2.3.0
+   18  rvm install ruby-2.3.0
+   19  pwd
+   20  cd ../
+   21  pwd
+   22  ls
+   23  ls -l
+   24  cd rottenpotatoes-rails-intro/
+   25  rvm install "ruby-2.3.0"
+   26  ruby use 2.3.0
+   27  rvm use 2.3.0
+   28  rvm install "ruby-2.3.0"
+   29  sudo rvm install "ruby-2.3.0"
+   30  rvm list
+   31  rvm install 2.3.0
+   32  rvm group add rvm "$USER"
+   33  logout
+   34  rvm fix-permissions
+   35  rvm install "ruby-2.3.0"
+   36  sudo rvm install "ruby-2.3.0"
+   37  rvm group add rvm "$USER"
+   38  pwd
+   39  cd rottenpotatoes-rails-intro/
+   40  rvm install "ruby-2.3.0"
+   41  rvm fix-permissions
+   42  rvm install "ruby-2.3.0"
+   43  cd rottenpotatoes-rails-intro/
+   44  rvm install "ruby-2.3.0"
+   45  bundle install --without production
+   46  pwd
+   47  ls
+   48  bundle install --without production
+   49  gem install rails
+   50  bundle install --without production
+   51  bundle exec rake db:setup
+   52  rails server -p $PORT -b $IP
+   53  ssh-keygen -t rsa
+   54  heroku login
+   55  brew install heroku/brew/heroku
+   56  login heroku
+   57  heroku login
+   58  heroku keys:add
+   59  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+   60  heroku login
+   61  sudo snap install heroku --classic
+   62  wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+   63  wget https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-linux-x64.tar.gz -O heroku.tar.gz
+   64  $ tar -xvzf heroku.tar.gz
+   65  $ mkdir -p /usr/local/lib /usr/local/bin
+   66  $ mv heroku-cli-v6.11.1-darwin-64 /usr/local/lib/heroku
+   67  $ ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku
+   68  wget https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-linux-x64.tar.gz -O heroku.tar.gz
+   69  tar -xvzf heroku.tar.gz
+   70  mkdir -p /usr/local/lib /usr/local/bin
+   71  mv heroku-cli-v6.11.1-darwin-64 /usr/local/lib/heroku
+   72  ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku
+   73  wget https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-linux-x64.tar.gz -O heroku.tar.gz
+   74  tar -xvzf heroku.tar.gz
+   75  mkdir -p /usr/local/lib /usr/local/bin
+   76  mv heroku-cli-v6.0.0-darwin-64 /usr/local/lib/heroku
+   77  ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/herokuls
+   78  ls
+   79  pwd
+   80  ls
+   81  cd ~
+   82  ls
+   83  cd environment/
+   84  ls
+   85  tar -xvzf heroku.tar.gz
+   86  ls
+   87  mkdir -p /usr/local/lib /usr/local/bin
+   88  mv heroku-cli-v6.15.22-darwin-64 /usr/local/lib/heroku
+   89  mv heroku-cli-v6.15.22-3f1c4bd-linux-x64 /usr/local/lib/heroku
+   90  sudo mv heroku-cli-v6.15.22-3f1c4bd-linux-x64 /usr/local/lib/heroku
+   91  ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku
+   92  sudo ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku
+   93  heroku login
+   94  heroku keys:add
+   95  heroku create
+   96  git push heroku master
+   97  cd rottenpotatoes-rails-intro/
+   98  ls
+   99  git push heroku master
+  100  heroku login
+  101  heroku create
+  102  git push heroku master
+  103  heroku run rake db:migrate
+  104  heroku run rake db:seed
+  105  ls
+  106  cd rottenpotatoes-rails-intro/
+  107  ls]
+  108  ls
+  109  cd lib
+  110  ls
+  111  ls tasks/
+  112  ls assets/
+  113  cd ../
+  114  ls
+  115  ls app
+  116  ls bin
+  117  ls bin/rails
+  118  ls bin/spring
+  119  ls
+  120  ls db
+  121  ls app/assets/
+  122  ls app/assets/javascripts/
+  123  ls app/assets/stylesheets/
+  124  vi app/assets/stylesheets/application.css 
+  125  heroku login
+  126  heroku create
+  127  git push heroku master
+  128  heroku run rake db:migrate
+  129  heroku run rake db:seed
+  130  git push heroku master
+  131  heroku create
+  132  heroku run rake db:migrate
+  133  ls
+  134  cd rottenpotatoes-rails-intro/
+  135  ls
+  136  heroku create
+  137  heroku run rake db:migrate
+  138  heroku run rake db:seed
+  139  git push heroku master
+  140  heroku create
+  141  heroku run rake db:migrate
+  142  heroku run rake -a db:migrate
+  143  pwd
+  144  ls
+  145  cd rottenpotatoes-rails-intro/
+  146  ls
+  147  heroku run rake db:migrate
+  148  heroku run rake db:seed
+  149  git push heroku master
+  150  heroku run rake db:migrate
+  151  heroku run rake db:seed
+  152  heroku create
+  153  git push heroku master
+  154  heroku run rake db:migrate
+  155  heroku apps
+  156  heroku run rake db:migrate
+  157  heroku run rake db:migrate --app fierce-spire-13146
+  158  heroku create
+  159  git push heroku master
+  160  git push heroku master --app secret-castle-73761
+  161  heroku git:remote -a secret-castle-73761
+  162  git push heroku master
+  163  heroku run rake db:migrate
+  164  heroku run rake db:seed
+  165  git commit -a -m "Various updates"
+  166  git push heroku master
+  167  pwd
+  168  cd rottenpotatoes-rails-intro/
+  169  ls
+  170  git commit -a -m "Various updates"
+  171  git push heroku master
+  172  git push
+  173  git add .
+  174  git push
+  175  git commit -a -m "Various updates"
+  176  git push heroku master
+  177  git commit -a -m "Linked with git"
+  178  git push heroku master
+  179  git commit -am "cleaning up code"
+  180  git push heroku master
+  181  git push
+  182  git commit -am "cleaning up code"
+  183  git push
+  184  git commit -am "fixing header isssue"
+  185  git push
+  186  git commit -am "fixing header isssue"
+  187  git push
+  188  git commit -am "fixing header isssue"
+  189  git push
+  190  git push heroku master
+  191  git commit -am "fixing header isssue"
+  192  git push
+  193  git commit -am "fixing header isssue"
+  194  git push
+  195  git commit -am "cleaning code"
+  196  git push
+  197  git commit -am "cleaning code"
+  198  cd rottenpotatoes-rails-intro/
+  199  ls
+  200  git commit -am "cleaning code"
+  201  git push
+  202  git commit -am "cleaning code"
+  203  git push heroku master
+  204  git push
+  205  git commit -am "cleaning code"
+  206  git push heroku master
+  207  git push
+  208  git commit -am "cleaning code"
+  209  git push
+  210  git commit -am "cleaning code"
+  211  git push
+  212  git commit -am "cleaning code"
+  213  git push
+  214  git commit -am "cleaning code"
+  215  git push
+  216  git commit -am "fixed ratings issue"
+  217  git push
+  218  git commit -am "fixing ratings issue"
+  219  git push
+  220  git commit -am "fixing ratings issue"
+  221  git push
+  222  git commit -am "fixing ratings issue"
+  223  git push
+  224  git push heroku master
+  225  heroku create
+  226  git push heroku master --app lit-lake-36903
+  227  git push heroku master
+  228  git push
+  229  git commit -am "fixing ratings issue"
+  230  git push
+  231  git commit -am "fixing ratings issue"
+  232  git push
+  233  git commit -am "fixing ratings issue"
+  234  git push
+  235  git commit -am "fixing ratings issue"
+  236  git push
+  237  git commit -am "fixing ratings issue"
+  238  git push
+  239  git commit -am "fixing ratings issue"
+  240  git push
+  241  git commit -am "fixing ratings issue"
+  242  git push
+  243  git commit -am "fixing ratings issue"
+  244  git push
+  245  git commit -am "fixing brokenness"
+  246  git push
+  247  git commit -am "fixing brokenness"
+  248  git push
+  249  git commit -am "fixing brokenness"
+  250  git push
+  251  heroku create
+  252  heroku run rake db:migrate --app lit-lake-36903
+  253  heroku run rake db:seed --app lit-lake-36903
+  254  git push heroku master
+  255  git commit -am "fixing rating default issue"
+  256  git push
+  257  git commit -am "fixing rating default issue"
+  258  git push
+  259  git commit -am "fixing rating default issue"
+  260  git push
+  261  git commit -am "finishing part 3"
+  262  git push
+  263  git commit -am "finishing part 3"
+  264  git push
+  265  git commit -am "finishing part 3"
+  266  git push
+  267  git commit -am "finishing part 3"
+  268  git push
+  269  git commit -am "finishing part 3"
+  270  git push
+  271  git commit -am "finishing part 3"
+  272  git push
+  273  git commit -am "finishing part 3"
+  274  git push
+  275  git commit -am "updating comments"
+  276  cd rottenpotatoes-rails-intro/
+  277  git commit -am "updating comments"
+  278  git push
+  279  git commit -am "updating comments"
+  280  git push
+  281  git reset HEAD~1
+  282  git add ...
+  283  git add .
+  284   git commit -c ORIG_HEAD 
+  285  git config --global user.name "kristacapps1
+  286  "
+  287   git commit -c ORIG_HEAD 
+  288  git pull
+  289  git reset HEAD~
+  290  git add  .
+  291  git commit -c ORIG_HEAD   
+  292  git checkout b9b656aed51cfaa7355b3d03fa61446e5cf16826
+  293  git add .
+  294  git push
+  295  git push master
+  296  git push master HEAD:b9b656aed51cfaa7355b3d03fa61446e5cf16826
+  297  git checkout -b b9b656aed51cfaa7355b3d03fa61446e5cf16826
+  298  git add .
+  299  git push master
+  300  git rm -r
+  301  checkout master
+  302  cd ../
+  303  cd rottenpotatoes-rails-intro/
+  304  git checkout HEAD~57
+  305  git checkout HEAD~57 .
+  306  git reset --hard 7d1d0f4354037ae96fd18bb288b5a8dad982e93b
+  307  git add.
+  308  git add .
+  309  git commit -m "finished comments"
+  310  git push
+  311  git push --set-upstream origin b9b656aed51cfaa7355b3d03fa61446e5cf16826
+  312  git push heroku master --app lit-lake-36903
+  313  heroku run rake db:migrate --app lit-lake-36903
+  314  heroku run rake db:seed --app lit-lake-36903
+  315  git push heroku master
+  316  git heroku create
+  317  heroku create
+  318  git push heroku master
+  319  git remote -v
+  320  heroku git:remote -a sheltered-citadel-96869
+  321  git push heroku master
+  322  heroku run rake db:migrate
+  323  heroku run rake db:seed
+  324  git push heroku master
+  325  git push --force heroku master
+  326  git add .
+  327  git push --force heroku master
+  328  git push heroku master
+  329  git add .
+  330  git push heroku master
+  331  cd ../
+  332  ls
+  333  cd rottenpotatoes-rails-intro/
+  334  git push heroku master
+  335  heroku create
+  336  heroku git:remote -a urmuring-reaches-15123
+  337  heroku git:remote -a murmuring-reaches-15123
+  338  git push heroku master
+  339  heroku run rake db:migrate
+  340  heroku run rake db:seed
+  341  git push heroku master
+  342  heroku git:remote -a sheltered-citadel-96869
+  343  git push heroku master
+  344  heroku git:remote -a blooming-waters-40739
+  345  git push heroku master
+  346  heroku run rake db:migrate
+  347  heroku run rake db:seed
+  348  git push heroku master
+  349  git checkout master
+  350  git checkout --force master
+  351  git pull
+  352  git push heroku master
+  353  git checkout --force master
+  354  git push
+  355  git push heroku master
+  356  pwd
+  357  ls
+  358  rails new blog
+  359  cd blog/
+  360  ls
+  361  bin/rails server
+  362  bin/rails generate controller Welcome index
+  363  bin/rails server
+  364  pwd
+  365  ls
+  366  rails new induction_autograder
+  367  ls
+  368  cd induction_autograder/
+  369  ls
+  370  heroku make
+  371  heroku create
+  372  ls
+  373  heroku git:remote -a young-brushlands-92960
+  374  git push heroku master
+  375  ls
+  376  git push heroku master
+  377  git add .
+  378  git commit -m "heroku push"
+  379  git push heroku master
+  380  git upgrade bundler
+  381  gem install bundler
+  382  git push heroku master
+  383  export DATABASE_URL=postgres://$(whoami)
+  384  which psql
+  385  psql -h localhost
+  386  git push heroku master
+  387  bundle install
+  388  git add .
+  389  git commit -m "heroku push one"
+  390  git push heroku master
+  391  heroku run rails console
+  392  cd ../
+  393  rails new -d postgressql
+  394  rails new -d postgresql
+  395  cd induction_autograder/
+  396  gem install pg
+  397  bundle install
+  398  git add .
+  399  git commit -m "fixing sqlite error"
+  400  git push heroku master
+  401  sudo service postgresql start
+  402  psql
+  403  sudo service postgresql start
+  404  heroku run rails console
+  405  heroku addons
+  406  gem install bundle
+  407  gem install update
+  408  rake db:migrate
+  409  bundle install
+  410  bundle update
+  411  gem install pg -v '1.0.0'
+  412  sudo service postgresql start
+  413  sudo sudo -u postgres psql
+  414  sudo -s
+  415  heroku git:remote -a young-brushlands92960
+  416  ls
+  417  cd ../
+  418  cd ind_proof_autograder/
+  419  heroku git:remote -a young-brushlands92960
+  420  bundle install --without production
+  421  cd ../
+  422  ls
+  423  rails new indc_proof_autograder
+  424  cd indc_proof_autograder/
+  425  ls
+  426  bundle install --without production
+  427  rake db:migrate
+  428  rake db:setup
+  429  heroku git:remote -a young-brushlands-92960
+  430  git add .
+  431  git commit -m "working on squlite error"
+  432  git push heroku master
+  433  heroku create
+  434  heroku git:remote -a dry-ridge-28390
+  435  git push heroku master
+  436  bundle install
+  437  git push heroku master
+  438  bundle install
+  439  bundle update
+  440  bundle install
+  441  git add .
+  442  git commit -m "updated versions"
+  443  git push heroku master
+  444  rails server
+  445  bundle exec rake -P
+  446  git add .
+  447  git commit -m "updated versions"
+  448  bundle exec rake -P
+  449  git push heroku master
+  450  rails server
+  451  bundle install
+  452  rails server
+  453  bundle exec rake -P
+  454  git add .
+  455  git commit -m "updated versions"
+  456  bundle exec rake -P
+  457  rails server
+  458  cd ../
+  459  cd ind_autograder/
+  460  rm -rf app/views/movies/
+  461  bundle install --without production
+  462  rake db:migrate
+  463  cd  ../
+  464  ls
+  465  cd ind_autograder/
+  466  rake db:migrate
+  467  gem install pg
+  468  rake db:migrate
+  469  bundle
+  470  rake db:migrate
+  471  bundle install
+  472  bundle update
+  473  rake db:migrate
+  474  bundle install
+  475  bundle update
+  476  bundle install
+  477  rake db:migrate
+  478  cd ../
+  479  ls
+  480  cd rottenpotatoes-rails-intro.1/
+  481  ls
+  482  heroku git:remote -a dry-ridge-28390
+  483  bundle install --without production
+  484  rake db:migrate
+  485  pwd
+  486  ls
+  487  cd ind_
+  488  cd ind_proof_autograder/
+  489  ls
+  490  git heroku push master
+  491  git push heroku master
+  492  heroku git:remote -a dry-ridge-28390
+  493  ls
+  494  git push heroku master
+  495  heroku git:remote -a dry-ridge-28390
+  496  heroku git:remote -a young-brushlands92960
+  497  heroku git:remote -a sleepy-coast-21948
+  498  git push heroku master
+  499  ls
+  500  cd ../
+  501  ls
+  502  cd indc_proof_autograder/
+  503  git push heroku master
+  504  rake assets:precompile
+  505  git push heroku master
+  506  rake assets:precompile
+  507  rake db:migrate
+  508  rake db:migrate > log.txt
+  509  ls
+  510  head log.txt
+  511  head -n10 log.txt
+  512  vim log.txt
+  513  rake db:migrate &> log.txt
+  514  head log.txt
+  515  bundle exec rake -T
+  516  bundle exec rake db:migrate
+  517  bundle exec rake -T
+  518  bundle exec rake db:seed
+  519  bundle exec rake db:setup
+  520  cd ../
+  521  ls
+  522  cd induction_autograder/
+  523  rake db:migrate
+  524  bundle install
+  525  sudo bundle install
+  526  pwd
+  527  cd ../
+  528  ls
+  529  cd ind_autograder/
+  530  rake db:migrate
+  531  rake db:setup
+  532  git push heroku master
+  533  pwd
+  534  heroku git:remote -a young-brushlands92960
+  535  heroku git:remote -a dry-ridge28390
+  536  heroku git:remote -a dry-ridge-28390
+  537  git push heroku master
+  538  ls
+  539  ls app/
+  540  ls app/controllers/
+  541  heroku git:remote -a dry-ridge-28390
+  542  git add .
+  543  git commit -m "working on sqlite error"
+  544  ls app/views/
+  545  git push heroku master
+  546  cd ../
+  547  ls
+  548  git clone https://github.com/DHLaurel/AutoGrader-Induction.git
+  549  ls AutoGrader-Induction/
+  550  mv AutoGrader-Induction/grader_dashboard.html ind_autograder/app/views/welcome/
+  551  mv AutoGrader-Induction/grader_student_solution.html ind_autograder/app/views/welcome/
+  552  mv AutoGrader-Induction/index.html ind_autograder/app/views/welcome/
+  553  mv AutoGrader-Induction/student_input_and_solution.html ind_autograder/app/views/welcome/
+  554  mv AutoGrader-Induction/signin.css ind_autograder/app/assets/stylesheets/
+  555  mv AutoGrader-Induction/grader_dashboard.css ind_autograder/app/assets/stylesheets/
+  556  ls AutoGrader-Induction/
+  557  pwd
+  558  cd ind_
+  559  cd ind_autograder/
+  560  ls
+  561  cd ../
+  562  ls
+  563  cd ../
+  564  cd AutoGrader-Induction/
+  565  ls
+  566  git add .
+  567  git commit -m "added ruby/rails app"
+  568  git push
+  569  cd ind_autograder/
+  570  ls
+  571  git push heroku master
+  572  git add .
+  573  git commit -m "added files from github"
+  574  git push heroku master
+  575  cd AutoGrader-Induction/
+  576  ls
+  577  git add .
+  578  git commit -m "created rails app and organized files, pushed to heroku"
+  579  git push
+  580  ls ind_autograder/
+  581  ls ind_autograder/app
+  582  ls ind_autograder/app/models/
+  583  ls ind_autograder/app/views/
+  584  ls ind_autograder/app/views/layouts/
+  585  ls ind_autograder/app/views/welcome/
+  586  ls
+  587  pwd
+  588  git add .
+  589  ls
+  590  ls ind_autograder/
+  591  cd ind_autograder/
+  592  git add .
+  593  git commit -m
+  594  git commit -m "fixing empty files issue"
+  595  git push
+  596  ls
+  597  git revert
+  598  git revert --continue
+  599  git revert 789a589c36b784df2b0f3f9728bd6e62678f70f2
+  600  ls
+  601  ls app/views/
+  602  git revert 789a589c36b784df2b0f3f9728bd6e62678f70f2
+  603  git push
+  604  cd ../
+  605  ls
+  606  git checkout krista
+  607  git checkout -b krista
+  608  ls
+  609  git add .
+  610  git commit -m "fixing empty files issue"
+  611  git push
+  612  git push --set-upstream origin krista
+  613  ls
+  614  cd ind_autograder/
+  615  git revert b9b656aed51cfaa7355b3d03fa61446e5cf16826
+  616  git push
+  617  ls
+  618  ls app/views/
+  619  cd ../
+  620  ls
+  621  ls ind_autograder/
+  622  cd ind_autograder/
+  623  git revert HEAD~2..HEAD
+  624  git checkout master
+  625  git add .
+  626  cd ../../
+  627  ls
+  628  cd rottenpotatoes-rails-intro
+  629  pwd
+  630  ls
+  631  git revert
+  632  git revert HEAD~2..HEAD
+  633  git revert HEAD~2..HEAD -m "reverting to before homework due date"
+  634  git revert -m "reverting to before merge with autograder" HEAD~2..HEAD
+  635  git revert HEAD~2..HEAD
+  636  git cherry-pick --continue
+  637  git commit -m "reverting to before autograder merge"
+  638  git push
+  639  git checkout -b krista
+  640  git revert HEAD~2..HEAD
+  641  git push
+  642  git push --set-upstream origin krista
+  643  git checkout master
+  644  ls
+  645  git push
+  646  git remote -v
+  647  git push
+  648  git push --force
+  649  cd ../
+  650  ls
+  651  cd AutoGrader-Induction/
+  652  ls ind_autograder/
+  653  ls ind_autograder/app/views/
+  654  cd ../
+  655  ls
+  656  ls 
+  657  cd AutoGrader-Induction/
+  658  ls
+  659  cd ../
+  660  ls
+  661  mkdir reversion
+  662  cd reversion/
+  663  ls
+  664  git clone https://github.com/DHLaurel/AutoGrader-Induction.git
+  665  cd AutoGrader-Induction/
+  666  ls
+  667  ls ind_autograder/
+  668  git revert HEAD~1..HEAD
+  669  ls
+  670  ls ind_autograder/
+  671  git push
+  672  git revert HEAD~1..HEAD
+  673  git push
+  674  ls
+  675  git revert HEAD~1..HEAD
+  676  ls
+  677  ls ind_autograder/
+  678  cd ../../
+  679  ls
+  680  cd AutoGrader-Induction/
+  681  ls
+  682  ls ind_autograder/
+  683  ls -l ind_autograder/
+  684  find -name "*.git"
+  685  cd ind_autograder/
+  686  ls
+  687  rm .git
+  688  ls .git
+  689  ls
+  690  git revert --continue
+  691  ls app/views/
+  692  pwd
+  693  ls
+  694  cd reversion/AutoGrader-Induction/
+  695  ls
+  696  git revert e4230784a5a610bac316e30701ea7db2243cdd05
+  697  git reset --hard e4230784a5a610bac316e30701ea7db2243cdd05
+  698  ls
+  699  git add .
+  700  git commit -m "reverting to original while sorting out repo merge issue"
+  701  git push
+  702  git push --force
+  703  ls
+  704  git checkout -b krista
+  705  ls
+  706  cd ../
+  707  ls
+  708  cd AutoGrader-Induction/ind_autograder/
+  709  ls
+  710  find -name "*" -exec cp {} ../../reversion/AutoGrader-Induction/ \;
+  711  find -name "*" -exec cp -R {} ../../reversion/AutoGrader-Induction/ \;
+  712  sudo find -name "*" -exec cp -R {} ../../reversion/AutoGrader-Induction/ \;
+  713  git pull
+  714  ls
+  715  cd ../
+  716  cd reversion/
+  717  cd AutoGrader-Induction/
+  718  git pull
+  719  ls
+  720  git reset
+  721  ls
+  722  cd ../
+  723  ls
+  724  git clone https://github.com/DHLaurel/AutoGrader-Induction.git
+  725  ls
+  726  cd AutoGrader-Induction/
+  727  ls
+  728  find -name "*.git"
+  729  git checkout krista
+  730  git checkout -b krista
+  731  ls
+  732  git add .
+  733  git commit -m "added rails app to branch"
+  734  git push
+  735  git push --set-upstream origin krista
+  736  ls
+  737  ls public/
+  738  cd config
+  739  ls
+  740  cd environment
+  741  cd environments
+  742  ls
+  743  vim test.rb 
+  744  cd ../../
+  745  ls
+  746  rails generate cucumber:install
+  747  ls
+  748  mkdir -p features/step_definitions
+  749  ls
+  750  cd features/
+  751  ls
+  752  cd ../
+  753  rails g cucumber:install
+  754  script/generate cucumber
+  755  gem install cucumber-rails
+  756  ls
+  757  rails g cucumber:install
+  758  git add .
+  759  git commit -m "sorting files into ruby app"
+  760  git push
+  761  bundle install --without productionbundle install --without production
+  762  bundle exec rake db:setup
+  763  rake db:migrate
+  764  rake db:setup
+  765  heroku git:remote -a dry-ridge-28390
+  766  git add .
+  767  git commit -m "trying rails app with files added"
+  768  git push heroku master
+  769  git push heroku master --force
+  770  ls -l ../../rottenpotatoes-rails-intro
+  771  ls -l
+  772  heroku create --buildpack https://github.com/heroku/heroku-buildpack-ruby.git
+  773  ls
+  774  heroku create --buildpack https://github.com/heroku/heroku-buildpack-ruby.git
+  775  git push heroku master
+  776  heroku git:remote -a pacific-gorge-43289
+  777  git push heroku master
+  778  ls
+  779  git checkout master
+  780  git push heroku master
+  781  bundle install
+  782  ls
+  783  git checkout krista
+  784  ls
+  785  bundle install
+  786  git add .
+  787  git commit -m "working on push to heroku"
+  788  git push heroku master
+  789  ls
+  790  git push heroku krista
+  791  git push heroku +HEAD:master
+  792  git push
+  793  heroku apps:rename autograder-induction
+  794  ls
+  795  heroku git:remote -a autograder_induction
+  796  heroku git:remote -a autograder-induction
+  797  cd reversion/
+  798  cd AutoGrader-Induction/
+  799  heroku git:remote -a autograder-induction
+  800  git tag -a Iteration1
+  801  git push --tags
+  802  cd rottenpotatoes-rails-intro
+  803  ls
+  804  heroku git:remote -a fierce-spire-13146
+  805  git push heroku master
+  806  git heroku add .
+  807  git add heroku .
+  808  git add . heroku
+  809  git push heroku master
+  810  git add .
+  811  git push heroku master
+  812  git commit -m "working on nil"
+  813  git push heroku master
+  814  git add .
+  815  git commit -m "working on nil"
+  816  git push heroku master
+  817  git add .
+  818  git commit -m "working on nil"
+  819  git push heroku master
+  820  history > hist.txt
