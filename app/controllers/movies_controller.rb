@@ -15,15 +15,10 @@ class MoviesController < ApplicationController
     @all_ratings = Movie.ratings
 
     #Set ratings to all ratings or saved ratings
-    @selected_ratings = params[:ratings] || session[:ratings] || {}
+    @selected_ratings = params[:ratings] || session[:ratings]
     
     #Default sort by id
     session[:sort] ||= 'id'
-    
-     #set rating and sort values
-    @ratings = session[:ratings]
-    @sort = session[:sort]
-  
 
     #Highlight selected title or ratings header
     case params[:sort] 
@@ -47,6 +42,10 @@ class MoviesController < ApplicationController
       sort: session[:sort])
     end
     
+    #set rating and sort values
+    @ratings = session[:ratings]
+    @sort = session[:sort]
+  
     #Set movies to new list depending on rating settings AND sort
     @movies = Movie.where(rating: @ratings).order(session[:sort])
 
