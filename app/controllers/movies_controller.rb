@@ -19,10 +19,7 @@ class MoviesController < ApplicationController
     
     #Default sort by id
     session[:sort] ||= 'id'
-    if params[:ratings]
-      session[:ratings] = params[:ratings].keys
-    end
-    
+
     #Highlight selected title or ratings header
     case params[:sort] 
     when 'title'
@@ -32,7 +29,9 @@ class MoviesController < ApplicationController
     end
 
     #Save settings for part 3
-
+    if params[:ratings]
+      session[:ratings] = params[:ratings].keys
+    end
     if params[:sort]
       session[:sort] = params[:sort]
     end
