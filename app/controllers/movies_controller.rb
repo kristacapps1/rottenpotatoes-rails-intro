@@ -19,6 +19,7 @@ class MoviesController < ApplicationController
     
     #Default sort by id
     session[:sort] ||= 'id'
+    session[:ratings] ||= @all_ratings
 
     #Highlight selected title or ratings header
     case params[:sort] 
