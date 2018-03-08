@@ -22,12 +22,7 @@ class MoviesController < ApplicationController
     if params[:ratings]
       session[:ratings] = params[:ratings]
     else
-      if  params[:ratings].nil? || params[:sort].nil?
-        redirect_to movies_path(ratings: Hash[session[:ratings].map {|r| [r,1]}], 
-        sort: session[:sort])
-      else
-        session[:ratings] = Hash[Movie.ratings.map {|r| [r, 1]}]
-      end
+      redirect_to movies_path(ratings: Hash[session[:ratings].map {|r| [r,1]}], sort: session[:sort]) if  params[:ratings].nil? || params[:sort].nil?
     end
 
     #Highlight selected title or ratings header
